@@ -1,0 +1,33 @@
+# Virtual environment
+venv/
+rshachatbot/
+
+# Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs
+*.log
+
+# Sensitive information (env variables, credentials)
+.env
+
+# Database files
+*.sqlite3
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Test cache
+.pytest_cache/
+
+# Deployment specific files (if you are not using them)
+docker-compose.yml
+*.yml
