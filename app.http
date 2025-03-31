@@ -1,0 +1,11 @@
+###
+GET http://127.0.0.1:8000/docs
+
+
+###
+POST http://127.0.0.1:8000/chat/
+Content-Type: application/json
+
+{
+    "user_input": "What are the benefits of SHA in Kenya?"
+}
